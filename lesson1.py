@@ -6,7 +6,7 @@ def activation(x):
 
 
 def choice(house, music, beauty):
-    inp_signals = np.array(([house, music, beauty]))
+    inp_signals = np.array([house, music, beauty])
     weight1 = np.array([
         [0.3, 0.3, 0],
         [0.4, -0.5, 1]
